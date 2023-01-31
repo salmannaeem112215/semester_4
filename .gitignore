@@ -1,0 +1,33 @@
+# Visual Studio temporary files
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio build outputs
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+*.csproj.nuget.cache
+*.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
+# Package directories
+packages/
+
+# Visual Studio project user files
+*.csproj.user
+
+# Generated files
+_UpgradeReport_Files/
+UpgradeLog.XML
+
+# Other files
+*.pidb
+*.sdf
+*.opensdf
+
+# Folders
+TestResults/

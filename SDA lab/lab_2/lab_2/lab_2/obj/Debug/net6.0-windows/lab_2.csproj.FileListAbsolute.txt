@@ -1,0 +1,17 @@
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.exe
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.deps.json
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.runtimeconfig.json
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.dll
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.pdb
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.AssemblyReference.cache
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.Form1.resources
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.GenerateResource.cache
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.GeneratedMSBuildEditorConfig.editorconfig
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.AssemblyInfoInputs.cache
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.AssemblyInfo.cs
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.CoreCompileInputs.cache
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.dll
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\refint\lab_2.dll
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.pdb
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.genruntimeconfig.cache
+J:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\ref\lab_2.dll
