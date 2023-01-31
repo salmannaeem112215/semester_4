@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,32 @@ namespace lab_2
             return students.ToList().Count;
         }
 
-        
+
+        // example 2
+        private static ArrayList users = new ArrayList();
+
+        public static void addStudent(StudentDTO std)
+        {
+            users.Add(std);
+        }
+
+        public static StudentDTO isValidUser(StudentDTO std)
+        {
+            foreach(StudentDTO u in users)
+            {
+                if(u.name.Equals(std.name) && u.password.Equals(std.password))
+                {
+                    return u;
+                }
+            }
+            return null;
+        }
+        public static int getTotal()
+        {
+            return users.Count;
+        }
+
     }
+    
+
 }

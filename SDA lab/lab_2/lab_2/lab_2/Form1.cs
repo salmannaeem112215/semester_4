@@ -102,6 +102,12 @@ namespace lab_2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loginForm LoginForm = new loginForm();
+            LoginForm.Show();
+        }
     }
 }
 
