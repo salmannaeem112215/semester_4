@@ -15,7 +15,7 @@ namespace lab_2_task
 
         private void program2_Click(object sender, EventArgs e)
         {
-            Program2 form = new Program2();
+            Program1 form = new Program1();
             form.ShowDialog();
 
         }
@@ -30,6 +30,11 @@ namespace lab_2_task
         {
             Program4 form = new Program4();
             form.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

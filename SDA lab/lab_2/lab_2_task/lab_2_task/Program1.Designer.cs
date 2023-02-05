@@ -34,6 +34,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.loginButton = new System.Windows.Forms.Button();
             this.message = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.signButton = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.s_password_box = new System.Windows.Forms.TextBox();
+            this.s_username_box = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // usernameBox
@@ -89,11 +95,71 @@
             this.message.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.message.Click += new System.EventHandler(this.message_Click);
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(535, 160);
+            this.label3.Name = "label3";
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label3.Size = new System.Drawing.Size(100, 15);
+            this.label3.TabIndex = 11;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // signButton
+            // 
+            this.signButton.Location = new System.Drawing.Point(546, 134);
+            this.signButton.Name = "signButton";
+            this.signButton.Size = new System.Drawing.Size(75, 23);
+            this.signButton.TabIndex = 10;
+            this.signButton.Text = "Sign Up";
+            this.signButton.UseVisualStyleBackColor = true;
+            this.signButton.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(438, 83);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 15);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Enter Password";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(435, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 15);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Enter Username";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // s_password_box
+            // 
+            this.s_password_box.Location = new System.Drawing.Point(546, 80);
+            this.s_password_box.Name = "s_password_box";
+            this.s_password_box.Size = new System.Drawing.Size(143, 23);
+            this.s_password_box.TabIndex = 7;
+            this.s_password_box.TextChanged += new System.EventHandler(this.s_password_box_TextChanged);
+            // 
+            // s_username_box
+            // 
+            this.s_username_box.Location = new System.Drawing.Point(546, 34);
+            this.s_username_box.Name = "s_username_box";
+            this.s_username_box.Size = new System.Drawing.Size(143, 23);
+            this.s_username_box.TabIndex = 6;
+            this.s_username_box.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // Program1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 303);
+            this.ClientSize = new System.Drawing.Size(792, 324);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.signButton);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.s_password_box);
+            this.Controls.Add(this.s_username_box);
             this.Controls.Add(this.message);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.label2);
@@ -115,5 +181,11 @@
         private Label label2;
         private Button loginButton;
         private Label message;
+        private Label label3;
+        private Button signButton;
+        private Label label4;
+        private Label label5;
+        private TextBox s_password_box;
+        private TextBox s_username_box;
     }
 }

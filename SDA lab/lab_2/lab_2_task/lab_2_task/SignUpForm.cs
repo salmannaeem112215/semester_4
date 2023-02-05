@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace lab_2_task
 {
-    public partial class Program2 : Form
+    public partial class SignUpForm : Form
     {
-        public Program2()
+        public SignUpForm()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

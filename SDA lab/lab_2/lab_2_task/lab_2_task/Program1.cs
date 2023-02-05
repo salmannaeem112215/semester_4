@@ -22,13 +22,16 @@ namespace lab_2_task
 
         }
 
+        string[] users = new string[10] ;
+        string[] password = new string[10];
+        int u = 0;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            string[] users = new string[10] {"salman","naeem","sadiq","farjad","waseem","nouman","ahmed","usama","jutt","moezz" };
-            string[] password = new string[10] {"salman","naeem","sadiq","farjad","waseem","nouman","ahmed","usama","jutt","moezz" };
+            
 
             bool found = false;
-            for(int i=0; i < 10; i++)
+            for(int i=0; i < u; i++)
             {
                 if (users[i] == usernameBox.Text)
                 {
@@ -55,6 +58,43 @@ namespace lab_2_task
         }
 
         private void message_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (u < 10)
+            {
+                if(s_username_box.Text !="" && s_password_box.Text != "")
+                {
+                    users[u]= s_username_box.Text;
+                    password[u] = s_password_box.Text;
+                    u++;
+                    MessageBox.Show("User Sign In Succesfully");
+                }
+                else
+                {
+                    MessageBox.Show("Please Enter Credentials");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Max Accounts Reached");
+            }
+        }
+
+        private void s_password_box_TextChanged(object sender, EventArgs e)
         {
 
         }
