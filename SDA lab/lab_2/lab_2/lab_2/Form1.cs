@@ -108,6 +108,16 @@ namespace lab_2
             loginForm LoginForm = new loginForm();
             LoginForm.Show();
         }
+
+        private void Program2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Program1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

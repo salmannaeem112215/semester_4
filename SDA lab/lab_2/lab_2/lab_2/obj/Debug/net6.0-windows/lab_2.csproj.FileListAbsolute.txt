@@ -34,3 +34,23 @@ E:\Salman_DESKTOP\semester_4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\
 E:\Salman_DESKTOP\semester_4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\ref\lab_2.dll
 E:\Salman_DESKTOP\semester_4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.frmAge.resources
 E:\Salman_DESKTOP\semester_4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.loginForm.resources
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.exe
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.deps.json
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.runtimeconfig.json
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.dll
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\bin\Debug\net6.0-windows\lab_2.pdb
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.AssemblyReference.cache
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.Form1.resources
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.frmAge.resources
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.loginForm.resources
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.GenerateResource.cache
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.AssemblyInfoInputs.cache
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.AssemblyInfo.cs
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.csproj.CoreCompileInputs.cache
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.dll
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\refint\lab_2.dll
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.pdb
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.genruntimeconfig.cache
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\ref\lab_2.dll
+E:\UET\Semester\Semester 4\SDA lab\lab_2\lab_2\lab_2\obj\Debug\net6.0-windows\lab_2.Program1.resources

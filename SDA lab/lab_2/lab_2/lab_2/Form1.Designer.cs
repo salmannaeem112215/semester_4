@@ -39,6 +39,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.Program1 = new System.Windows.Forms.Button();
+            this.Program2 = new System.Windows.Forms.Button();
+            this.Program3 = new System.Windows.Forms.Button();
+            this.Program4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -143,11 +147,53 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // Program1
+            // 
+            this.Program1.Location = new System.Drawing.Point(480, 41);
+            this.Program1.Name = "Program1";
+            this.Program1.Size = new System.Drawing.Size(75, 23);
+            this.Program1.TabIndex = 11;
+            this.Program1.Text = "Program1";
+            this.Program1.UseVisualStyleBackColor = true;
+            this.Program1.Click += new System.EventHandler(this.Program1_Click);
+            // 
+            // Program2
+            // 
+            this.Program2.Location = new System.Drawing.Point(480, 71);
+            this.Program2.Name = "Program2";
+            this.Program2.Size = new System.Drawing.Size(75, 23);
+            this.Program2.TabIndex = 12;
+            this.Program2.Text = "Program2";
+            this.Program2.UseVisualStyleBackColor = true;
+            this.Program2.Click += new System.EventHandler(this.Program2_Click);
+            // 
+            // Program3
+            // 
+            this.Program3.Location = new System.Drawing.Point(480, 100);
+            this.Program3.Name = "Program3";
+            this.Program3.Size = new System.Drawing.Size(75, 23);
+            this.Program3.TabIndex = 13;
+            this.Program3.Text = "Program3";
+            this.Program3.UseVisualStyleBackColor = true;
+            // 
+            // Program4
+            // 
+            this.Program4.Location = new System.Drawing.Point(480, 129);
+            this.Program4.Name = "Program4";
+            this.Program4.Size = new System.Drawing.Size(75, 23);
+            this.Program4.TabIndex = 14;
+            this.Program4.Text = "Program4";
+            this.Program4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(747, 332);
+            this.Controls.Add(this.Program4);
+            this.Controls.Add(this.Program3);
+            this.Controls.Add(this.Program2);
+            this.Controls.Add(this.Program1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -180,5 +226,9 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button Program1;
+        private Button Program2;
+        private Button Program3;
+        private Button Program4;
     }
 }
