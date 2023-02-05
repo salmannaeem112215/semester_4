@@ -16,5 +16,47 @@ namespace lab_2_task
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] users = new string[10] {"salman","naeem","sadiq","farjad","waseem","nouman","ahmed","usama","jutt","moezz" };
+            string[] password = new string[10] {"salman","naeem","sadiq","farjad","waseem","nouman","ahmed","usama","jutt","moezz" };
+
+            bool found = false;
+            for(int i=0; i < 10; i++)
+            {
+                if (users[i] == usernameBox.Text)
+                {
+                    if (users[i] == passwordBox.Text)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            if (found)
+            {
+                message.Text = "Valid User";
+                message.BackColor = System.Drawing.Color.Green;
+                message.ForeColor = System.Drawing.Color.White;
+            }
+            else
+            {
+                message.Text = "InValid User";
+                message.BackColor = System.Drawing.Color.Red;
+                message.ForeColor = System.Drawing.Color.White;
+            }
+        }
+
+        private void message_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
