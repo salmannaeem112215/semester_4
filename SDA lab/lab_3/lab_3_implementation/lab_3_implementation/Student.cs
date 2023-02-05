@@ -46,5 +46,10 @@ namespace lab_3_implementation
             get { return fileContent; }
             set { fileContent = value; }
         }
+        public string ImagePath
+        {
+            get { return imagePath; }
+            set { imagePath = value; }
+        }
     }
 }

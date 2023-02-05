@@ -45,7 +45,38 @@ namespace lab_3_implementation
 
             fs.Save(pathWithName);
 
-            Student 
+            Student std = new Student();
+            std.UserName = txtUsername.Text;
+            std.PassWord = txtPassword.Text;
+            std.SelectAge = txtAge.Text;
+            std.ImagePath = pathWithName;
+
+            if (r1.Checked)
+            {
+                std.SelectGender = "Male";
+            }
+            else if(r2.Checked)
+            {
+                std.SelectGender = "Female";
+            }
+            else
+            {
+                std.SelectGender = "BTS";
+            }
+
+            dataStore.data.Add(std);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           LoginForm form = new LoginForm();
+            form.Show();
+            this.Hide();
         }
     }
 }

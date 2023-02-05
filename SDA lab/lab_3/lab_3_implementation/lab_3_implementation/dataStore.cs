@@ -8,6 +8,6 @@ namespace lab_3_implementation
 {
     internal class dataStore
     {
-        private static List<Student> data = new List<Student>(); // sterotype array List
+        public static List<Student> data = new List<Student>(); // sterotype array List
     }
 }
