@@ -19,7 +19,10 @@ namespace lab_2_task
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //this.Dispose();
+            Close();
+            LoginForm form = new LoginForm();
+            form.Show();
         }
     }
 }

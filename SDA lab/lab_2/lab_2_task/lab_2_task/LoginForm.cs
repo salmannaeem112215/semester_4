@@ -24,7 +24,9 @@ namespace lab_2_task
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            SignUpForm form = new SignUpForm();
+            form.ShowDialog();
+            this.Hide();
         }
     }
 }

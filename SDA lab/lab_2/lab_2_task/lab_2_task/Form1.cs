@@ -22,7 +22,7 @@ namespace lab_2_task
 
         private void program3_Click(object sender, EventArgs e)
         {
-            Program3 form = new Program3();
+            LoginForm form = new LoginForm();
             form.ShowDialog();
         }
 
