@@ -67,6 +67,7 @@ namespace lab_3_implementation
             }
 
             dataStore.data.Add(std);
+            MessageBox.Show("User Succesfully Added");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -77,6 +78,18 @@ namespace lab_3_implementation
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
            LoginForm form = new LoginForm();
+            form.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            LoginHomePageHome form = new LoginHomePageHome();
             form.Show();
             this.Hide();
         }
