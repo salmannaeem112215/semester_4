@@ -30,7 +30,7 @@ namespace lab_3_implementation
             {
                 fPath = fileDialog.FileName;
                 fs = Image.FromFile(fPath);
-                fs.RotateFlip(RotateFlipType.Rotate270FlipNone); // to rotate pic
+               // fs.RotateFlip(RotateFlipType.RotateFlipNone); // to rotate pic
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;  // to fit pic
                 pictureBox1.Image = fs;
             }

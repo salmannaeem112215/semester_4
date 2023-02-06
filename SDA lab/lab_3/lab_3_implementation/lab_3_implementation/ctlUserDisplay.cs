@@ -28,7 +28,7 @@ namespace lab_3_implementation
             label1.Text = username;
             // picture nox properites
             System.Drawing.Image img = Image.FromFile(picturePath);
-            img.RotateFlip(RotateFlipType.Rotate270FlipNone);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
             pbctlDisplay.SizeMode = PictureBoxSizeMode.StretchImage;
             pbctlDisplay.Image = img;
         }

@@ -15,6 +15,7 @@ namespace lab_3_implementation
         public LoginHomePageHome()
         {
             InitializeComponent();
+            pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;   
         }
 
         private void LoginHomePageHome_Load(object sender, EventArgs e)
@@ -36,7 +37,10 @@ namespace lab_3_implementation
 
                 if(txtUserName.Text == mystudent.UserName)
                 {
-                    pictureBox1.Load(mystudent.ImagePath);
+                    System.Drawing.Image img = Image.FromFile(mystudent.ImagePath);
+                    img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                    pictureBox1.Image = img;
+                   
                 }
             }
         }
