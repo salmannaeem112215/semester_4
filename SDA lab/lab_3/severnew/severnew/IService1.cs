@@ -29,6 +29,12 @@ namespace severnew
         [OperationContract]
         void addPost(Blogpost post);
 
+        [OperationContract]
+        void deletePost(int a);
+
+        [OperationContract]
+        void savePost(Blogpost post,int index);
+
 
 
     }

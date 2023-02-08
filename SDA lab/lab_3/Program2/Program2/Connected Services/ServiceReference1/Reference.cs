@@ -13,7 +13,7 @@ namespace ServiceReference1
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/severnew")]
     public partial class CompositeType : object
     {
@@ -50,7 +50,7 @@ namespace ServiceReference1
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Blogpost", Namespace="http://schemas.datacontract.org/2004/07/severnew")]
     public partial class Blogpost : object
     {
@@ -101,7 +101,7 @@ namespace ServiceReference1
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService1")]
     public interface IService1
     {
@@ -135,15 +135,27 @@ namespace ServiceReference1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/addPost", ReplyAction="http://tempuri.org/IService1/addPostResponse")]
         System.Threading.Tasks.Task addPostAsync(ServiceReference1.Blogpost post);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/deletePost", ReplyAction="http://tempuri.org/IService1/deletePostResponse")]
+        void deletePost(int a);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/deletePost", ReplyAction="http://tempuri.org/IService1/deletePostResponse")]
+        System.Threading.Tasks.Task deletePostAsync(int a);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/savePost", ReplyAction="http://tempuri.org/IService1/savePostResponse")]
+        void savePost(ServiceReference1.Blogpost post, int index);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/savePost", ReplyAction="http://tempuri.org/IService1/savePostResponse")]
+        System.Threading.Tasks.Task savePostAsync(ServiceReference1.Blogpost post, int index);
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     public interface IService1Channel : ServiceReference1.IService1, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
     public partial class Service1Client : System.ServiceModel.ClientBase<ServiceReference1.IService1>, ServiceReference1.IService1
     {
         
@@ -237,9 +249,34 @@ namespace ServiceReference1
             return base.Channel.addPostAsync(post);
         }
         
+        public void deletePost(int a)
+        {
+            base.Channel.deletePost(a);
+        }
+        
+        public System.Threading.Tasks.Task deletePostAsync(int a)
+        {
+            return base.Channel.deletePostAsync(a);
+        }
+        
+        public void savePost(ServiceReference1.Blogpost post, int index)
+        {
+            base.Channel.savePost(post, index);
+        }
+        
+        public System.Threading.Tasks.Task savePostAsync(ServiceReference1.Blogpost post, int index)
+        {
+            return base.Channel.savePostAsync(post, index);
+        }
+        
         public virtual System.Threading.Tasks.Task OpenAsync()
         {
             return System.Threading.Tasks.Task.Factory.FromAsync(((System.ServiceModel.ICommunicationObject)(this)).BeginOpen(null, null), new System.Action<System.IAsyncResult>(((System.ServiceModel.ICommunicationObject)(this)).EndOpen));
+        }
+        
+        public virtual System.Threading.Tasks.Task CloseAsync()
+        {
+            return System.Threading.Tasks.Task.Factory.FromAsync(((System.ServiceModel.ICommunicationObject)(this)).BeginClose(null, null), new System.Action<System.IAsyncResult>(((System.ServiceModel.ICommunicationObject)(this)).EndClose));
         }
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)

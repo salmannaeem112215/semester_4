@@ -33,9 +33,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cbApprovedPoint = new System.Windows.Forms.CheckBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Details = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAddPost = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,23 +84,6 @@
             this.cbApprovedPoint.Text = "Approved Point";
             this.cbApprovedPoint.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Details});
-            this.dataGridView1.Location = new System.Drawing.Point(26, 66);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(376, 250);
-            this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Details
-            // 
-            this.Details.HeaderText = "Column1";
-            this.Details.Name = "Details";
-            // 
             // btnAddPost
             // 
             this.btnAddPost.Location = new System.Drawing.Point(466, 364);
@@ -109,13 +94,55 @@
             this.btnAddPost.UseVisualStyleBackColor = true;
             this.btnAddPost.Click += new System.EventHandler(this.btnAddPost_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 66);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(400, 275);
+            this.dataGridView1.TabIndex = 7;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(190, 364);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(119, 44);
+            this.btnEdit.TabIndex = 9;
+            this.btnEdit.Text = "Edit Post";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(65, 364);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(119, 44);
+            this.btnDelete.TabIndex = 10;
+            this.btnDelete.Text = "Delete Selected Post";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(360, 398);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(8, 8);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnAddPost);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnAddPost);
             this.Controls.Add(this.cbApprovedPoint);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -140,5 +167,8 @@
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn Details;
         private Button btnAddPost;
+        private Button btnEdit;
+        private Button btnDelete;
+        private Button button3;
     }
 }

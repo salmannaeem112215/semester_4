@@ -27,6 +27,17 @@ namespace severnew
             return Datalist.datastore[postId];
         }
 
+        public void deletePost(int a)
+        {
+            Datalist.datastore.RemoveAt(a);
+        }
+
+        public void savePost(Blogpost post,int index)
+        {
+            Datalist.datastore.RemoveAt(index);
+            Datalist.datastore.Insert(index, post);
+        }
+
 
 
         public string GetData(int value)
