@@ -30,6 +30,8 @@ namespace Program2
             abc.DataSource = myclient.getPosts();
             dataGridView1.DataSource = abc;
 
+           
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
